@@ -1,0 +1,18 @@
+1. Поле поиска
+$("[name='q']")
+2. Кнопка «Поиск в Google»
+$("input[name='btnK']")
+3. Кнопка «Мне повезёт»
+$x("//input[@name='btnI']")
+4. Логотип Google
+$("[aria-label='Google']")
+5. Ссылка «Настройки» в футере
+$x("//*[text()='Настройки' or text()='Settings']")
+6. Ссылка «English» (или другой язык)
+$(Selectors.byText("Россия"))
+7. Ссылка «Всё о Google» в футере
+$x("//*[text()='Всё о Google' or text()='All About Google']")
+8. Ссылка «Реклама»
+$x("//*[text()='Реклама' or text()='Advertising']")
+9. Блок результатов поиска
+ $("//*[@id=\"rcnt\"]/div[1]/div[1]")
